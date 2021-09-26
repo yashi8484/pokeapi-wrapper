@@ -1,0 +1,22 @@
+{
+  "name": "pokeapi-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yashi8484/pokeapi-wrapper.git",
+  "author": "yashi8484",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.21.6"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^16.10.1",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "prettier": {}
+}
