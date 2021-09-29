@@ -1,4 +1,11 @@
 import fastify from "fastify";
+import { Static, Type } from "@sinclair/typebox";
+
+const User = Type.Object({
+  name: Type.String(),
+  mail: Type.Optional(Type.String({ format: "email" })),
+});
+type UserType = Static<typeof User>;
 
 interface IQuerystring {
   username: string;
@@ -32,6 +39,22 @@ server.get<{
     // do something with request data
 
     return `logged in!\n`;
+  }
+);
+
+server.post<{ Body: UserType; Reply: UserType }>(
+  "/",
+  {
+    schema: {
+      body: User,
+      response: {
+        200: User,
+      },
+    },
+  },
+  (req, rep) => {
+    const { body: user } = req;
+    rep.status(200).send(user);
   }
 );
 
