@@ -44,11 +44,6 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sinclair/typebox@^0.20.5":
-  version "0.20.5"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.20.5.tgz#d5828bbb8237876d7937dd229e3dac71d1220771"
-  integrity sha512-WNiVFcS1rdz5KyEutpl3Wmp/AwSQHBUFTyJz7KqMLkpLhOXCj1dnvMytBM6uMS5OTwhwwq877T7EC4vDGrX5Eg==
-
 "@swc/core-android-arm64@1.2.101":
   version "1.2.101"
   resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.101.tgz#215ae30cff46694da0a6532fbfdd043734955c52"
@@ -123,10 +118,10 @@
     "@swc/core-win32-ia32-msvc" "1.2.101"
     "@swc/core-win32-x64-msvc" "1.2.101"
 
-"@tsconfig/node14@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node14/-/node14-1.0.1.tgz#95f2d167ffb9b8d2068b0b235302fafd4df711f2"
-  integrity sha512-509r2+yARFfHHE7T6Puu2jjkoycftovhXRqW328PDXTVGKihlb1P8Z9mMZH04ebyajfRY7dedfGynlrFHJUQCg==
+"@tsconfig/node16@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
+  integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
 "@types/glob@*":
   version "7.1.4"
@@ -673,14 +668,6 @@ json-schema-ref-parser@^9.0.6:
   dependencies:
     "@apidevtools/json-schema-ref-parser" "9.0.9"
 
-json-schema-to-ts@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/json-schema-to-ts/-/json-schema-to-ts-1.6.4.tgz#63e4fe854dff093923be9e8b59b39ee9a7971ba4"
-  integrity sha512-pR4yQ9DHz6itqswtHCm26mw45FSNfQ9rEQjosaZErhn5J3J2sIViQiz8rDaezjKAhFGpmsoczYVBgGHzFw/stA==
-  dependencies:
-    "@types/json-schema" "^7.0.6"
-    ts-toolbelt "^6.15.5"
-
 json-schema-to-typescript@^10.1.5:
   version "10.1.5"
   resolved "https://registry.yarnpkg.com/json-schema-to-typescript/-/json-schema-to-typescript-10.1.5.tgz#9ac32808eb4d7c158684e270438ad07256c0cb1c"
@@ -1030,11 +1017,6 @@ tiny-lru@^7.0.0:
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-7.0.6.tgz#b0c3cdede1e5882aa2d1ae21cb2ceccf2a331f24"
   integrity sha512-zNYO0Kvgn5rXzWpL0y3RS09sMK67eGaQj9805jlK9G6pSadfriTczzLHFXa/xcW4mIRfmlB9HyQ/+SgL0V1uow==
-
-ts-toolbelt@^6.15.5:
-  version "6.15.5"
-  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
-  integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
 
 type@^1.0.1:
   version "1.2.0"
