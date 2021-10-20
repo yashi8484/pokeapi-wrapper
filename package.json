@@ -5,8 +5,8 @@
   "repository": "https://github.com/yashi8484/pokeapi-wrapper.git",
   "author": "yashi8484",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js",
+    "build": "vite build",
+    "start": "vite",
     "compile-schemas": "json2ts -i schemas -o types"
   },
   "license": "MIT",
@@ -20,7 +20,9 @@
     "json-schema-to-ts": "^1.6.4",
     "json-schema-to-typescript": "^10.1.5",
     "prettier": "^2.4.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "vite": "^2.6.10",
+    "vite-plugin-node": "^0.0.14"
   },
   "prettier": {}
 }
